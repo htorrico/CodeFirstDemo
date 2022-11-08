@@ -140,9 +140,15 @@
     <Compile Include="Migrations\202211080023467_new field in course.designer.cs">
       <DependentUpon>202211080023467_new field in course.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202211080039470_v3_Many to Many.cs" />
+    <Compile Include="Migrations\202211080039470_v3_Many to Many.designer.cs">
+      <DependentUpon>202211080039470_v3_Many to Many.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Enrollment.cs" />
+    <Compile Include="Models\Invoice.cs" />
+    <Compile Include="Models\Product.cs" />
     <Compile Include="Models\SchoolContext.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -211,6 +217,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202211080023467_new field in course.resx">
       <DependentUpon>202211080023467_new field in course.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202211080039470_v3_Many to Many.resx">
+      <DependentUpon>202211080039470_v3_Many to Many.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

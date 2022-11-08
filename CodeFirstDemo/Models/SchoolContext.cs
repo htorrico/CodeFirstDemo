@@ -15,6 +15,11 @@ namespace CodeFirstDemo.Models
 
         public DbSet<Enrollment> Enrollments { get; set; }
 
+        public DbSet<Product> Products { get; set; }
+
+        public DbSet<Invoice> Invoices { get; set; }
+
+
 
 
 

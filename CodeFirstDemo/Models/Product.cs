@@ -5,13 +5,11 @@ using System.Web;
 
 namespace CodeFirstDemo.Models
 {
-    public class Student
+    public class Product
     {
-        public int StudentID { get; set; }
+        public int ProductID { get; set; }
         public string Name { get; set; }
-        public string LastName { get; set; }
 
-        //public List<Enrollment> Enrollments { get; set; }
-
+        public List<Invoice> Invoices { get; set; }
     }
 }
