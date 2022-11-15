@@ -19,6 +19,8 @@ namespace CodeFirstDemo.Models
 
         public DbSet<Invoice> Invoices { get; set; }
 
+    
+
 
 
 
